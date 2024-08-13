@@ -15,8 +15,8 @@ public class CalculatorServer {
       LocateRegistry.createRegistry(1099);
 
       // Create the implementation object that will handle the remote method calls.
-      Calculator stub = new CalculatorImplementation();
 
+      Calculator stub = new CalculatorImplementation();
       // Bind the remote object's stub (reference) in the registry with the name
       // "CalculatorService".
       Naming.rebind("rmi://localhost/CalculatorService", stub);
