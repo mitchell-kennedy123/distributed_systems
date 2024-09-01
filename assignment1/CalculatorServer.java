@@ -1,6 +1,7 @@
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 
+
 public class CalculatorServer {
   /**
    * Main method to start the Calculator RMI server.
