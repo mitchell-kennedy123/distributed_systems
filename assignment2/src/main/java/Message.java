@@ -6,6 +6,4 @@
  * 
  */
 
-public record Message(int to, int from, int time, Payload payload)  {
-
-}
+public record Message(String to, String from, int lamportTime, Payload payload)  {}

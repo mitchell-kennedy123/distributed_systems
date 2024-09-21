@@ -28,7 +28,7 @@ public interface Network {
 	 * @throws IndexOutOfBoundsException if there is no more space to add nodes
 	 */
 	
-	public int addNode(Node node) throws IndexOutOfBoundsException;
+	public int addNode(NetworkNode node) throws IndexOutOfBoundsException;
 	
 	/**
 	 * Send a message to the given node
